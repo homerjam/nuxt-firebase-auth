@@ -1,6 +1,10 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 export default {
-  // mode: 'universal',
-  mode: 'spa',
+  mode: 'universal',
+  // mode: 'spa',
   /*
    ** Headers of the page
    */
@@ -75,6 +79,7 @@ export default {
    ** Build configuration
    */
   build: {
+    transpile: ['@nuxtjs/auth-next'],
     /*
      ** You can extend webpack config here
      */
