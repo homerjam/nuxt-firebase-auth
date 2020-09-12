@@ -19,7 +19,7 @@
     "firebaseui": "^4.5.0",
     "jsonwebtoken": "^8.5.1",
     "lru-memoizer": "^2.1.2",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nuxt": "^2.12.2"
   },
   "devDependencies": {
